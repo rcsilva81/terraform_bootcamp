@@ -1,11 +1,11 @@
 provider "aws" {
-  access_key = "AKIASFYBFSAUGLTLLZMG"
+  access_key = "xxxxxx"
   secret_key = "Secret Key"
   region     = "us-east-1"
 }
 resource "aws_instance" "MyFirstInstnace" {
   count         = 3
-  ami           = "ami-0ad2f1bea4e7a64b9"
+  ami           = "ami-jhghjghjgjhg"
   instance_type = "t2.micro"
 
 #   tags = {
